@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors Practice</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        p {
+            font-style: italic;
+        }
+
+        .container * {
+            padding: 10px;
+        }
+
+        #main-heading {
+            font-weight: bold;
+            color: blue;
+        }
+
+        h1, h2, h3 {
+            border-bottom: 2px solid #ccc;
+        }
+
+        .box {
+            background: #f0f0f0;
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="main-heading">Welcome to our new web page </h1>
+        <p>
+            Explore where you'll find fresh content, helpful resources, and an easy-to-navigate experience designed just for you!!
+        </p>
+        <a href="https://www.google.com/">Click here to know about us</a>
+       <span>
+    We're excited to have you here!</span>
+
+        <div class="box">
+            <strong>We'd love your feedback!</strong>  
+           What did you think about your experience with us? Please share your thoughts or any suggestions you have to help us improve.
+        </div>
+    </div>
+</body>
+</html>
